@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="application/javascript">
+    let d = new Date()
+
+    const date = d.getFullYear() + '-' + d.getMonth() + '-' + d.getDate();
+    const start = date + 'T04:00:00-07:00';
+    const end = date + 'T18:00:00-07:00';
+
+    const url = 'https://www.parkwhiz.com/p/sacramento-ca-parking/map/' +
+        '?start=' + start + '&end=' + end +
+        '&seller_id=2345&pwa=pa-1052' +
+        '&pricing_access_codes=bb6b8b04' +
+        '&pricing_access_code_exclusive=true';
+
+    window.location = url;
+</script>
+</html>
